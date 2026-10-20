@@ -1,0 +1,15 @@
+{
+  "income": 12000,
+  "categories": [
+    {"name": "房租", "kind": "需要", "budget": 3000},
+    {"name": "通讯会员", "kind": "需要", "budget": 200},
+    {"name": "餐饮", "kind": "需要", "budget": 2200},
+    {"name": "交通", "kind": "需要", "budget": 400},
+    {"name": "分期还款", "kind": "还债", "budget": 1800},
+    {"name": "购物", "kind": "想要", "budget": 600},
+    {"name": "社交娱乐", "kind": "想要", "budget": 700},
+    {"name": "人情", "kind": "想要", "budget": 300},
+    {"name": "旅行", "kind": "想要", "budget": 500},
+    {"name": "储蓄", "kind": "储蓄", "budget": 2300}
+  ]
+}
