@@ -17,7 +17,7 @@
 | 章 | 标题 | 文件 | 状态 |
 |---|---|---|---|
 | 01 | 理财到底是什么：钱的四个去处、复利与通胀 | [01-what-is-financial-planning.md](chapters/01-what-is-financial-planning.md) | 已发布 |
-| 02 | 给自己做一张财务报表：资产负债表与现金流量表 | `02-personal-financial-statements.md` | 待发布 |
+| 02 | 给自己做一张财务报表：资产负债表与现金流量表 | [02-personal-financial-statements.md](chapters/02-personal-financial-statements.md) | 已发布 |
 | 03 | 记账与预算：让每一块钱都有去处 | `03-budgeting.md` | 待发布 |
 | 04 | 安全垫：应急金、负债管理与个人信用 | `04-emergency-fund-debt.md` | 待发布 |
 | 05 | 保险：用小钱转移大风险 | `05-insurance.md` | 待发布 |
@@ -70,12 +70,15 @@ flowchart LR
 .
 ├── README.md                 课程总纲（本文件）
 ├── chapters/                 正文，每章一个文件
-│   └── 01-what-is-financial-planning.md
+│   ├── 01-what-is-financial-planning.md
+│   └── 02-personal-financial-statements.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
-│       └── README.md
+│       ├── README.md
+│       └── ch02-statements.json   第 2 章：小林的报表数据
 └── tools/                    配套 Python 小工具（仅标准库）
-    └── compound_interest.py  复利 / 定投 / 通胀计算器
+    ├── compound_interest.py  复利 / 定投 / 通胀计算器
+    └── personal_statements.py 个人资产负债表 / 现金流量表 / 财务体检
 ```
 
 ## 免责声明
