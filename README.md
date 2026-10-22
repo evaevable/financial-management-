@@ -40,7 +40,7 @@
 | 12 | 资产配置：决定长期结果的那件事 | [12-asset-allocation.md](chapters/12-asset-allocation.md) | 已发布 |
 | 13 | 再平衡与投资纪律 | [13-rebalancing.md](chapters/13-rebalancing.md) | 已发布 |
 | 14 | 投资心理学：你最大的敌人是自己 | [14-behavioral-finance.md](chapters/14-behavioral-finance.md) | 已发布 |
-| 15 | 税费与账户：个税、公积金、个人养老金、交易成本 | `15-tax-accounts.md` | 待发布 |
+| 15 | 税费与账户：个税、公积金、个人养老金、交易成本 | [15-tax-accounts.md](chapters/15-tax-accounts.md) | 已发布 |
 | 16 | 更多资产：黄金、REITs、海外资产 | `16-alternative-assets.md` | 待发布 |
 
 ### 第四阶段 精通：看懂公司、看懂周期
@@ -83,7 +83,8 @@ flowchart LR
 │   ├── 11-index-investing.md
 │   ├── 12-asset-allocation.md
 │   ├── 13-rebalancing.md
-│   └── 14-behavioral-finance.md
+│   ├── 14-behavioral-finance.md
+│   └── 15-tax-accounts.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
 │       ├── README.md
@@ -105,7 +106,8 @@ flowchart LR
     ├── dca_sim.py            定投 vs 一次性投入（假设价格路径）
     ├── portfolio_mix.py      股债比例 vs 波动 / 回撤 / 亏损概率模拟
     ├── rebalance.py          再平衡策略模拟 / 调回目标比例的方案计算
-    └── behavior_gap.py       纪律型 vs 追涨杀跌型投资者收益对比
+    ├── behavior_gap.py       纪律型 vs 追涨杀跌型投资者收益对比
+    └── tax_calc.py           个税 / 年终奖两种计税 / 个人养老金节税
 ```
 
 ## 免责声明
