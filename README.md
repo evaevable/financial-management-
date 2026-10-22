@@ -28,7 +28,7 @@
 |---|---|---|---|
 | 06 | 风险、收益、流动性：理财的不可能三角 | [06-risk-return-liquidity.md](chapters/06-risk-return-liquidity.md) | 已发布 |
 | 07 | 现金管理：存款、货币基金、国债逆回购 | [07-cash-management.md](chapters/07-cash-management.md) | 已发布 |
-| 08 | 债券与固收：利率、久期与信用 | `08-bonds.md` | 待发布 |
+| 08 | 债券与固收：利率、久期与信用 | [08-bonds.md](chapters/08-bonds.md) | 已发布 |
 | 09 | 股票是什么：股权、交易所与 A 股规则 | `09-stocks-basics.md` | 待发布 |
 | 10 | 基金全景：主动基金、指数基金、ETF、FOF | `10-funds.md` | 待发布 |
 | 11 | 指数基金与定投：普通人的最优解之一 | `11-index-investing.md` | 待发布 |
@@ -76,7 +76,8 @@ flowchart LR
 │   ├── 04-emergency-fund-debt.md
 │   ├── 05-insurance.md
 │   ├── 06-risk-return-liquidity.md
-│   └── 07-cash-management.md
+│   ├── 07-cash-management.md
+│   └── 08-bonds.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
 │       ├── README.md
@@ -90,7 +91,8 @@ flowchart LR
     ├── debt_apr.py           分期真实年化（IRR）+ 应急金测算
     ├── insurance_needs.py    重疾 / 寿险保额与保费预算测算
     ├── risk_sim.py           回本难度 + 持有期与亏损概率模拟
-    └── cash_tools.py         现金工具利息比较 / 定期提前支取 / 应急金分层
+    ├── cash_tools.py         现金工具利息比较 / 定期提前支取 / 应急金分层
+    └── bond_calc.py          债券价格 / 久期 / 利率冲击 / 信用期望收益
 ```
 
 ## 免责声明
