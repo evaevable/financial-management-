@@ -26,7 +26,7 @@
 
 | 章 | 标题 | 文件 | 状态 |
 |---|---|---|---|
-| 06 | 风险、收益、流动性：理财的不可能三角 | `06-risk-return-liquidity.md` | 待发布 |
+| 06 | 风险、收益、流动性：理财的不可能三角 | [06-risk-return-liquidity.md](chapters/06-risk-return-liquidity.md) | 已发布 |
 | 07 | 现金管理：存款、货币基金、国债逆回购 | `07-cash-management.md` | 待发布 |
 | 08 | 债券与固收：利率、久期与信用 | `08-bonds.md` | 待发布 |
 | 09 | 股票是什么：股权、交易所与 A 股规则 | `09-stocks-basics.md` | 待发布 |
@@ -74,7 +74,8 @@ flowchart LR
 │   ├── 02-personal-financial-statements.md
 │   ├── 03-budgeting.md
 │   ├── 04-emergency-fund-debt.md
-│   └── 05-insurance.md
+│   ├── 05-insurance.md
+│   └── 06-risk-return-liquidity.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
 │       ├── README.md
@@ -86,7 +87,8 @@ flowchart LR
     ├── personal_statements.py 个人资产负债表 / 现金流量表 / 财务体检
     ├── budget.py             预算 vs 实际 + 50/30/20 检查
     ├── debt_apr.py           分期真实年化（IRR）+ 应急金测算
-    └── insurance_needs.py    重疾 / 寿险保额与保费预算测算
+    ├── insurance_needs.py    重疾 / 寿险保额与保费预算测算
+    └── risk_sim.py           回本难度 + 持有期与亏损概率模拟
 ```
 
 ## 免责声明
