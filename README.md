@@ -38,7 +38,7 @@
 | 章 | 标题 | 文件 | 状态 |
 |---|---|---|---|
 | 12 | 资产配置：决定长期结果的那件事 | [12-asset-allocation.md](chapters/12-asset-allocation.md) | 已发布 |
-| 13 | 再平衡与投资纪律 | `13-rebalancing.md` | 待发布 |
+| 13 | 再平衡与投资纪律 | [13-rebalancing.md](chapters/13-rebalancing.md) | 已发布 |
 | 14 | 投资心理学：你最大的敌人是自己 | `14-behavioral-finance.md` | 待发布 |
 | 15 | 税费与账户：个税、公积金、个人养老金、交易成本 | `15-tax-accounts.md` | 待发布 |
 | 16 | 更多资产：黄金、REITs、海外资产 | `16-alternative-assets.md` | 待发布 |
@@ -81,10 +81,12 @@ flowchart LR
 │   ├── 09-stocks-basics.md
 │   ├── 10-funds.md
 │   ├── 11-index-investing.md
-│   └── 12-asset-allocation.md
+│   ├── 12-asset-allocation.md
+│   └── 13-rebalancing.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
 │       ├── README.md
+│       ├── investment-policy.md   第 13 章：小林的一页纸投资说明书
 │       ├── ch02-statements.json   第 2 章：小林的报表数据
 │       ├── ch03-budget.json       第 3 章：小林的新预算
 │       └── ch03-transactions.csv  第 3 章：小林 10 月流水
@@ -100,7 +102,8 @@ flowchart LR
     ├── stock_cost.py         A 股交易成本 / 换手拖累 / 回报拆解
     ├── fund_fees.py          基金费用长期拖累对比
     ├── dca_sim.py            定投 vs 一次性投入（假设价格路径）
-    └── portfolio_mix.py      股债比例 vs 波动 / 回撤 / 亏损概率模拟
+    ├── portfolio_mix.py      股债比例 vs 波动 / 回撤 / 亏损概率模拟
+    └── rebalance.py          再平衡策略模拟 / 调回目标比例的方案计算
 ```
 
 ## 免责声明
