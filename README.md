@@ -39,7 +39,7 @@
 |---|---|---|---|
 | 12 | 资产配置：决定长期结果的那件事 | [12-asset-allocation.md](chapters/12-asset-allocation.md) | 已发布 |
 | 13 | 再平衡与投资纪律 | [13-rebalancing.md](chapters/13-rebalancing.md) | 已发布 |
-| 14 | 投资心理学：你最大的敌人是自己 | `14-behavioral-finance.md` | 待发布 |
+| 14 | 投资心理学：你最大的敌人是自己 | [14-behavioral-finance.md](chapters/14-behavioral-finance.md) | 已发布 |
 | 15 | 税费与账户：个税、公积金、个人养老金、交易成本 | `15-tax-accounts.md` | 待发布 |
 | 16 | 更多资产：黄金、REITs、海外资产 | `16-alternative-assets.md` | 待发布 |
 
@@ -82,7 +82,8 @@ flowchart LR
 │   ├── 10-funds.md
 │   ├── 11-index-investing.md
 │   ├── 12-asset-allocation.md
-│   └── 13-rebalancing.md
+│   ├── 13-rebalancing.md
+│   └── 14-behavioral-finance.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
 │       ├── README.md
@@ -103,7 +104,8 @@ flowchart LR
     ├── fund_fees.py          基金费用长期拖累对比
     ├── dca_sim.py            定投 vs 一次性投入（假设价格路径）
     ├── portfolio_mix.py      股债比例 vs 波动 / 回撤 / 亏损概率模拟
-    └── rebalance.py          再平衡策略模拟 / 调回目标比例的方案计算
+    ├── rebalance.py          再平衡策略模拟 / 调回目标比例的方案计算
+    └── behavior_gap.py       纪律型 vs 追涨杀跌型投资者收益对比
 ```
 
 ## 免责声明
