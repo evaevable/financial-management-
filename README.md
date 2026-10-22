@@ -30,7 +30,7 @@
 | 07 | 现金管理：存款、货币基金、国债逆回购 | [07-cash-management.md](chapters/07-cash-management.md) | 已发布 |
 | 08 | 债券与固收：利率、久期与信用 | [08-bonds.md](chapters/08-bonds.md) | 已发布 |
 | 09 | 股票是什么：股权、交易所与 A 股规则 | [09-stocks-basics.md](chapters/09-stocks-basics.md) | 已发布 |
-| 10 | 基金全景：主动基金、指数基金、ETF、FOF | `10-funds.md` | 待发布 |
+| 10 | 基金全景：主动基金、指数基金、ETF、FOF | [10-funds.md](chapters/10-funds.md) | 已发布 |
 | 11 | 指数基金与定投：普通人的最优解之一 | `11-index-investing.md` | 待发布 |
 
 ### 第三阶段 进阶：把工具组合成体系
@@ -78,7 +78,8 @@ flowchart LR
 │   ├── 06-risk-return-liquidity.md
 │   ├── 07-cash-management.md
 │   ├── 08-bonds.md
-│   └── 09-stocks-basics.md
+│   ├── 09-stocks-basics.md
+│   └── 10-funds.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
 │       ├── README.md
@@ -94,7 +95,8 @@ flowchart LR
     ├── risk_sim.py           回本难度 + 持有期与亏损概率模拟
     ├── cash_tools.py         现金工具利息比较 / 定期提前支取 / 应急金分层
     ├── bond_calc.py          债券价格 / 久期 / 利率冲击 / 信用期望收益
-    └── stock_cost.py         A 股交易成本 / 换手拖累 / 回报拆解
+    ├── stock_cost.py         A 股交易成本 / 换手拖累 / 回报拆解
+    └── fund_fees.py          基金费用长期拖累对比
 ```
 
 ## 免责声明
