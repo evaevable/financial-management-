@@ -47,7 +47,7 @@
 
 | 章 | 标题 | 文件 | 状态 |
 |---|---|---|---|
-| 17 | 读懂财报：利润表、资产负债表、现金流量表 | `17-reading-financial-reports.md` | 待发布 |
+| 17 | 读懂财报：利润表、资产负债表、现金流量表 | [17-reading-financial-reports.md](chapters/17-reading-financial-reports.md) | 已发布 |
 | 18 | 估值：PE、PB、股息率与 DCF | `18-valuation.md` | 待发布 |
 | 19 | 宏观与周期：利率、通胀与经济周期 | `19-macro-cycles.md` | 待发布 |
 | 20 | 风险管理：波动、回撤与压力测试 | `20-risk-management.md` | 待发布 |
@@ -85,7 +85,8 @@ flowchart LR
 │   ├── 13-rebalancing.md
 │   ├── 14-behavioral-finance.md
 │   ├── 15-tax-accounts.md
-│   └── 16-alternative-assets.md
+│   ├── 16-alternative-assets.md
+│   └── 17-reading-financial-reports.md
 ├── cases/
 │   └── xiaolin/              贯穿案例：小林的财务改造
 │       ├── README.md
@@ -109,7 +110,8 @@ flowchart LR
     ├── rebalance.py          再平衡策略模拟 / 调回目标比例的方案计算
     ├── behavior_gap.py       纪律型 vs 追涨杀跌型投资者收益对比
     ├── tax_calc.py           个税 / 年终奖两种计税 / 个人养老金节税
-    └── alt_asset.py          另类资产对组合的影响 / QDII 溢价计算
+    ├── alt_asset.py          另类资产对组合的影响 / QDII 溢价计算
+    └── financial_health.py    财报体检验（盈利能力、利润质量、异常信号）
 ```
 
 ## 免责声明
